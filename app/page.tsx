@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <>
+    Date: 12/9/2024
       <p className="text-black">
         Basketball is one of the most popular sports in the world. It was invented by Dr. James Naismith in 1891. The game has evolved over time and is now played by millions around the globe, including myself. It is one of my hobbies growing up.
       </p>
