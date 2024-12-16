@@ -3,33 +3,36 @@ export default function Page() {
       <>
       <h1 className="text-3xl ml-5">Final Exam</h1>
       <form>
-        <label htmlFor="product" className="ml-5">Product Description</label>
+        <label htmlFor="product" className="ml-5">Team Name</label>
         <input type="text" name="product" id="product" className="m-5 text-black bg-yellow-400"/>
         <br />
-        <label htmlFor="cars" className="mx-5">Choose a car:</label>
-        <select name="cars" id="cars">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
+        <label htmlFor="players" className="mx-5">Choose a Player: </label>
+      <select name="players" id="players">
+      <option value="LeBron James">LeBron James</option>
+      <option value="Chris Paul">Chris Paul</option>
+      <option value="Stephen Curry">Stephen Curry</option>
+      <option value="Shaquille ONeal">Shaquille ONeal</option>
+      <option value="Kevin Durant">Kevin Durant</option>
         </select>
 
         <br />
 
         <div className="ml-5 mt-5">
-        <input type="radio" id="html" name="fav_language" value="HTML" />
-        <label htmlFor="html">HTML</label><br />
-        <input type="radio" id="css" name="fav_language" value="CSS" />
-        <label htmlFor="css">CSS</label><br />
-        <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
-        <label htmlFor="javascript">JavaScript</label>
+        <input type="radio" id="ppg" name="fav_language" value="PPG" />
+        <label htmlFor="PPG">PPG</label><br />
+        <input type="radio" id="apg" name="fav_language" value="APG" />
+        <label htmlFor="APG">APG</label><br />
+        <input type="radio" id="rpg" name="fav_language" value="RPG" />
+        <label htmlFor="RPG">RPG</label>
         </div>
 
         <div className="ml-5 mt-5">
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-        <label htmlFor="vehicle1"> I have a bike</label><br />
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-        <label htmlFor="vehicle2"> I have a car</label><br />
+        <input type="checkbox" id="player1" name="player1" value="Assist" />
+        <label htmlFor="player1"> Assist Per Game</label><br />
+        <input type="checkbox" id="player2" name="player2" value="Points" />
+        <label htmlFor="player2"> Points Per Game</label><br />
+        <input type="checkbox" id="player3" name="player3" value="Rebounds" />
+        <label htmlFor="player3"> Rebounds Per Game</label><br />
         </div>
 
         <br />
@@ -39,3 +42,4 @@ export default function Page() {
       </>
     );
   }
+
